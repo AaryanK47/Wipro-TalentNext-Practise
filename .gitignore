@@ -1,0 +1,16 @@
+# Wipro TalentNext Practice Git Ignore
+
+# Ignore the instructions file as requested by the user
+INSTRUCTIONS.md
+
+# Ignore Java compiled bytecode files
+*.class
+
+# Ignore IDE files and system logs
+.project
+.classpath
+.settings/
+bin/
+*.log
+.DS_Store
+Thumbs.db
