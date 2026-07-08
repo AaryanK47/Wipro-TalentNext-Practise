@@ -1,4 +1,4 @@
-# 🌟 Wipro TalentNext Practice Solutions (Day 1 & Day 2)
+# 🌟 Wipro TalentNext Practice
 
 Welcome to the **Wipro TalentNext Practice** repository! This repository contains a collection of fundamental Java programming solutions designed to build a strong foundation in core Java concepts. These solutions cover the hands-on coding exercises assigned during **Day 1 and Day 2** of the Wipro TalentNext training program.
 
