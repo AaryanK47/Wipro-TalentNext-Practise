@@ -26,10 +26,11 @@ Wipro-TalentNext-Practise/
 │
 ├── 📂 Assignment/                  # Language Basics assignments
 │   ├── 📂 Flow Control Statements/ # Flow Control Statements assignments (placeholder)
-│   └── 📂 Language Basics/         # Command line & interactive input programs
-│       ├── FormatArguments.java    # Format two strings inserting "Technologies"
-│       ├── Welcome.java            # Welcome message program
-│       └── Sum.java                # Print the sum of two integers
+│   ├── 📂 Language Basics/         # Command line & interactive input programs
+│   │   ├── FormatArguments.java    # Format two strings inserting "Technologies"
+│   │   ├── Welcome.java            # Welcome message program
+│   │   └── Sum.java                # Print the sum of two integers
+│   └── 📄 README.md                # Assignment folder documentation
 │
 ├── 📂 Conditional statements/      # Programs demonstrating decision-making constructs
 │   ├── EvenOrOdd.java             # Check if a number is EVEN or ODD
