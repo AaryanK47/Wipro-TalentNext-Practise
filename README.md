@@ -24,6 +24,12 @@ This workspace is organized logically into topics covered over Day 1 & Day 2:
 ```text
 Wipro-TalentNext-Practise/
 │
+├── 📂 Assignment/                  # Language Basics assignments
+│   └── 📂 Language Basics/         # Command line & interactive input programs
+│       ├── FormatArguments.java    # Format two strings inserting "Technologies"
+│       ├── Welcome.java            # Welcome message program
+│       └── Sum.java                # Print the sum of two integers
+│
 ├── 📂 Conditional statements/      # Programs demonstrating decision-making constructs
 │   ├── EvenOrOdd.java             # Check if a number is EVEN or ODD
 │   ├── GreaterValue.java          # Find the greater of two numbers
@@ -46,7 +52,16 @@ Wipro-TalentNext-Practise/
 
 Here is the details of the problems solved in this repository:
 
-### 🧩 1. Conditional Statements
+### 📚 1. Language Basics (Assignment)
+These exercises demonstrate basic configuration, command-line arguments, and basic I/O using Scanner in Java.
+
+| Problem Statement | Solution Link |
+| :--- | :--- |
+| Accept two Strings as command line arguments (or fallback to interactive input) and generate the output in the required format | [FormatArguments.java](./Assignment/Language%20Basics/FormatArguments.java) |
+| Accept a String as command line argument (or fallback to interactive input) and print a Welcome message | [Welcome.java](./Assignment/Language%20Basics/Welcome.java) |
+| Accept two integers as command line arguments (or fallback to interactive input) and print the sum of the two numbers | [Sum.java](./Assignment/Language%20Basics/Sum.java) |
+
+### 🧩 2. Conditional Statements
 These exercises demonstrate basic conditional execution using `if-else` branches.
 
 | Problem Statement | Solution Link |
@@ -56,7 +71,7 @@ These exercises demonstrate basic conditional execution using `if-else` branches
 | Accept a number $N$ and print whether the number is EVEN or ODD | [EvenOrOdd.java](./Conditional%20statements/EvenOrOdd.java) |
 | Accept two numbers and print whether their sum is EVEN or ODD | [SumEvenOrOdd.java](./Conditional%20statements/SumEvenOrOdd.java) |
 
-### 🔄 2. Looping Constructs
+### 🔄 3. Looping Constructs
 These exercises demonstrate control flows using `for` and `while` loops.
 
 | Problem Statement | Solution Link |
