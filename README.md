@@ -25,7 +25,7 @@ This workspace is organized logically into topics covered over Day 1 & Day 2:
 Wipro-TalentNext-Practise/
 │
 ├── 📂 Assignment/                  # Language Basics assignments
-│   ├── 📂 Flow Control Statements/ # Flow Control Statements assignments (placeholder)
+│   ├── 📂 Flow Control Statements/ # Conditionals, switches, and loops assignments
 │   ├── 📂 Language Basics/         # Command line argument programs
 │   │   ├── FormatArgs.java         # Format two strings inserting "Technologies"
 │   │   ├── Welcome.java            # Welcome message program
