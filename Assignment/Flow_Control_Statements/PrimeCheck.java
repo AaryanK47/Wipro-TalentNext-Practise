@@ -1,3 +1,4 @@
+// Write a program to check if a given number is prime or not.
 public class PrimeCheck {
     public static void main(String[] args) {
         if (args.length < 1) {

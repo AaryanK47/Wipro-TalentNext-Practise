@@ -1,3 +1,4 @@
+// Write a program to receive a number and print the corresponding month name.
 public class Month {
     public static void main(String[] args) {
         if (args.length < 1) {

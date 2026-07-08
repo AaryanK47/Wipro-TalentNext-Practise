@@ -25,8 +25,8 @@ This workspace is organized logically into topics covered over Day 1 & Day 2:
 Wipro-TalentNext-Practise/
 │
 ├── 📂 Assignment/                  # Language Basics assignments
-│   ├── 📂 Flow Control Statements/ # Conditionals, switches, and loops assignments
-│   ├── 📂 Language Basics/         # Command line argument programs
+│   ├── 📂 Flow_Control_Statements/ # Conditionals, switches, and loops assignments
+│   ├── 📂 Language_Basics/         # Command line argument programs
 │   │   ├── FormatArgs.java         # Format two strings inserting "Technologies"
 │   │   ├── Welcome.java            # Welcome message program
 │   │   └── Sum.java                # Print the sum of two integers
@@ -59,9 +59,9 @@ These exercises demonstrate accepting and processing command-line arguments in J
 
 | Problem Statement | Solution Link |
 | :--- | :--- |
-| Accept two Strings as command line arguments and generate the output in the required format | [FormatArgs.java](./Assignment/Language%20Basics/FormatArgs.java) |
-| Accept a String as command line argument and print a Welcome message | [Welcome.java](./Assignment/Language%20Basics/Welcome.java) |
-| Accept two integers as command line arguments and print the sum of the two numbers | [Sum.java](./Assignment/Language%20Basics/Sum.java) |
+| Accept two Strings as command line arguments and generate the output in the required format | [FormatArgs.java](./Assignment/Language_Basics/FormatArgs.java) |
+| Accept a String as command line argument and print a Welcome message | [Welcome.java](./Assignment/Language_Basics/Welcome.java) |
+| Accept two integers as command line arguments and print the sum of the two numbers | [Sum.java](./Assignment/Language_Basics/Sum.java) |
 
 ### 🧩 2. Conditional Statements
 These exercises demonstrate basic conditional execution using `if-else` branches.

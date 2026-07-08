@@ -1,3 +1,4 @@
+// Initialize two character variables in a program and display the characters in alphabetical order.
 public class CharOrder {
     public static void main(String[] args) {
         char c1 = 's';

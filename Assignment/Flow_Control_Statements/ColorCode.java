@@ -1,3 +1,4 @@
+// Write a program to receive a color code from the user (an Alphabet) and print the color name or "Invalid Code" if not valid.
 public class ColorCode {
     public static void main(String[] args) {
         if (args.length < 1) {

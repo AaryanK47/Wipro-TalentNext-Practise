@@ -1,3 +1,4 @@
+// Write a program to reverse a given number and print
 public class ReverseNumber {
     public static void main(String[] args) {
         if (args.length < 1) {

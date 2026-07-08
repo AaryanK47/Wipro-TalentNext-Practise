@@ -1,3 +1,4 @@
+// Write a program to print the sum of all the digits of a given number.
 public class SumDigits {
     public static void main(String[] args) {
         if (args.length < 1) {
