@@ -26,7 +26,7 @@ Wipro-TalentNext-Practise/
 │
 ├── 📂 Assignment/                  # Language Basics assignments
 │   ├── 📂 Flow Control Statements/ # Flow Control Statements assignments (placeholder)
-│   ├── 📂 Language Basics/         # Command line & interactive input programs
+│   ├── 📂 Language Basics/         # Command line argument programs
 │   │   ├── FormatArgs.java         # Format two strings inserting "Technologies"
 │   │   ├── Welcome.java            # Welcome message program
 │   │   └── Sum.java                # Print the sum of two integers
@@ -55,13 +55,13 @@ Wipro-TalentNext-Practise/
 Here is the details of the problems solved in this repository:
 
 ### 📚 1. Language Basics (Assignment)
-These exercises demonstrate basic configuration, command-line arguments, and basic I/O using Scanner in Java.
+These exercises demonstrate accepting and processing command-line arguments in Java.
 
 | Problem Statement | Solution Link |
 | :--- | :--- |
-| Accept two Strings as command line arguments (or fallback to interactive input) and generate the output in the required format | [FormatArgs.java](./Assignment/Language%20Basics/FormatArgs.java) |
-| Accept a String as command line argument (or fallback to interactive input) and print a Welcome message | [Welcome.java](./Assignment/Language%20Basics/Welcome.java) |
-| Accept two integers as command line arguments (or fallback to interactive input) and print the sum of the two numbers | [Sum.java](./Assignment/Language%20Basics/Sum.java) |
+| Accept two Strings as command line arguments and generate the output in the required format | [FormatArgs.java](./Assignment/Language%20Basics/FormatArgs.java) |
+| Accept a String as command line argument and print a Welcome message | [Welcome.java](./Assignment/Language%20Basics/Welcome.java) |
+| Accept two integers as command line arguments and print the sum of the two numbers | [Sum.java](./Assignment/Language%20Basics/Sum.java) |
 
 ### 🧩 2. Conditional Statements
 These exercises demonstrate basic conditional execution using `if-else` branches.

@@ -5,7 +5,7 @@ This folder contains assignments for the Wipro TalentNext training program.
 ## 📁 Subdirectories
 
 ### 1. 📖 [Language Basics](./Language%20Basics/)
-Contains basic Java programs demonstrating command-line arguments and fallback interactive keyboard input using `Scanner`.
+Contains basic Java programs demonstrating command-line arguments.
 
 | Program | Description | How to Run |
 | :--- | :--- | :--- |
@@ -29,12 +29,8 @@ Contains basic Java programs demonstrating command-line arguments and fallback i
    javac FormatArgs.java Welcome.java Sum.java
    ```
 3. Run the programs:
-   - **With Command-Line Arguments:**
-     ```bash
-     java FormatArgs Wipro Bangalore
-     ```
-   - **Interactively (Fallback):**
-     If you run the programs without passing arguments, they will prompt you to enter the inputs directly in the terminal:
-     ```bash
-     java FormatArgs
-     ```
+   ```bash
+   java FormatArgs Wipro Bangalore
+   ```
+
+   *Note: If these programs are run without the required command-line arguments, they will display an error message and exit.*
