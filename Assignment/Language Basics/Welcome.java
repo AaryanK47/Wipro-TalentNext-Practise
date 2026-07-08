@@ -3,15 +3,15 @@ import java.util.Scanner;
 
 public class Welcome {
     public static void main(String[] args) {
-        String name;
+        String str;
         if (args.length >= 1) {
-            name = args[0];
+            str = args[0];
         } else {
-            Scanner scanner = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter name: ");
-            name = scanner.nextLine();
-            scanner.close();
+            str = sc.nextLine();
+            sc.close();
         }
-        System.out.println("Welcome " + name);
+        System.out.println("Welcome " + str);
     }
 }

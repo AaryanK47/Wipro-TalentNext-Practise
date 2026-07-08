@@ -3,19 +3,19 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-        int num1, num2;
+        int a, b;
         if (args.length >= 2) {
-            num1 = Integer.parseInt(args[0]);
-            num2 = Integer.parseInt(args[1]);
+            a = Integer.parseInt(args[0]);
+            b = Integer.parseInt(args[1]);
         } else {
-            Scanner scanner = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter first number: ");
-            num1 = scanner.nextInt();
+            a = sc.nextInt();
             System.out.print("Enter second number: ");
-            num2 = scanner.nextInt();
-            scanner.close();
+            b = sc.nextInt();
+            sc.close();
         }
-        int sum = num1 + num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
+        int sum = a + b;
+        System.out.println("The sum of " + a + " and " + b + " is " + sum);
     }
 }

@@ -9,7 +9,7 @@ Contains basic Java programs demonstrating command-line arguments and fallback i
 
 | Program | Description | How to Run |
 | :--- | :--- | :--- |
-| [FormatArguments.java](./Language%20Basics/FormatArguments.java) | Accepts two strings and prints them in the format `[Arg1] Technologies [Arg2]` | `java FormatArguments Wipro Bangalore` |
+| [FormatArgs.java](./Language%20Basics/FormatArgs.java) | Accepts two strings and prints them in the format `[Arg1] Technologies [Arg2]` | `java FormatArgs Wipro Bangalore` |
 | [Welcome.java](./Language%20Basics/Welcome.java) | Accepts a name and prints a welcome message `Welcome [Name]` | `java Welcome John` |
 | [Sum.java](./Language%20Basics/Sum.java) | Accepts two integers and prints their sum | `java Sum 10 20` |
 
@@ -26,15 +26,15 @@ Contains basic Java programs demonstrating command-line arguments and fallback i
    ```
 2. Compile the Java files:
    ```bash
-   javac FormatArguments.java Welcome.java Sum.java
+   javac FormatArgs.java Welcome.java Sum.java
    ```
 3. Run the programs:
    - **With Command-Line Arguments:**
      ```bash
-     java FormatArguments Wipro Bangalore
+     java FormatArgs Wipro Bangalore
      ```
    - **Interactively (Fallback):**
      If you run the programs without passing arguments, they will prompt you to enter the inputs directly in the terminal:
      ```bash
-     java FormatArguments
+     java FormatArgs
      ```
