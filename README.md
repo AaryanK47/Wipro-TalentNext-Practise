@@ -19,76 +19,103 @@ Welcome to the **Wipro TalentNext Practice** repository! This repository contain
 
 ## 📂 Project Structure
 
-This workspace is organized logically into topics covered over Day 1 & Day 2:
+This workspace is organized logically into the topics covered over Day 1 & Day 2:
 
 ```text
 Wipro-TalentNext-Practise/
 │
-├── 📂 Assignment/                  # Language Basics assignments
-│   ├── 📂 Flow_Control_Statements/ # Conditionals, switches, and loops assignments
-│   ├── 📂 Language_Basics/         # Command line argument programs
-│   │   ├── FormatArgs.java         # Format two strings inserting "Technologies"
-│   │   ├── Welcome.java            # Welcome message program
-│   │   └── Sum.java                # Print the sum of two integers
-│   └── 📄 README.md                # Assignment folder documentation
+├── 📂 Assignment/                       # Wipro TalentNext Java assignments
+│   ├── 📂 Language_Basics/              # Command line argument programs
+│   │   ├── FormatArgs.java
+│   │   ├── Sum.java
+│   │   └── Welcome.java
+│   ├── 📂 Flow_Control_Statements/      # Conditionals, switches, and loops assignments (17 programs)
+│   └── 📄 README.md                     # Assignment module documentation
 │
-├── 📂 Conditional statements/      # Programs demonstrating decision-making constructs
-│   ├── EvenOrOdd.java             # Check if a number is EVEN or ODD
-│   ├── GreaterValue.java          # Find the greater of two numbers
-│   ├── PositiveNegativeZero.java  # Check if a number is positive, negative, or zero
-│   └── SumEvenOrOdd.java          # Check if the sum of two numbers is EVEN or ODD
+├── 📂 Conditional statements/           # Basic decision-making exercises
+│   ├── EvenOrOdd.java
+│   ├── GreaterValue.java
+│   ├── PositiveNegativeZero.java
+│   └── SumEvenOrOdd.java
 │
-├── 📂 Looping constructs/          # Programs demonstrating iteration and loops
-│   ├── PrintOneToHundred.java              # Print numbers from 1 to 100
-│   ├── PrintAlternateOneToNinetyNine.java  # Print odd/alternate numbers (1, 3, ..., 99)
-│   ├── PrintAlternateZeroToHundred.java    # Print even/alternate numbers (0, 2, ..., 100)
-│   ├── PrintBackwardsHundredToZero.java    # Print numbers backwards from 100 to 0
-│   └── PrintBackwardsSkipTwo.java          # Print backwards skipping 2 numbers (100, 97, ...)
+├── 📂 Looping constructs/               # Basic iteration and loop exercises
+│   ├── PrintOneToHundred.java
+│   ├── PrintAlternateOneToNinetyNine.java
+│   ├── PrintAlternateZeroToHundred.java
+│   ├── PrintBackwardsHundredToZero.java
+│   └── PrintBackwardsSkipTwo.java
 │
-└── 📄 README.md                    # Repository documentation
+└── 📄 README.md                         # Repository documentation
 ```
 
 ---
 
 ## 📝 Problem Descriptions & Solutions
 
-Here is the details of the problems solved in this repository:
+Here are the details of the problems solved in this repository:
 
-### 📚 1. Language Basics (Assignment)
+### 📚 1. Assignment - Language Basics
+
 These exercises demonstrate accepting and processing command-line arguments in Java.
 
-| Problem Statement | Solution Link |
-| :--- | :--- |
-| Accept two Strings as command line arguments and generate the output in the required format | [FormatArgs.java](./Assignment/Language_Basics/FormatArgs.java) |
-| Accept a String as command line argument and print a Welcome message | [Welcome.java](./Assignment/Language_Basics/Welcome.java) |
-| Accept two integers as command line arguments and print the sum of the two numbers | [Sum.java](./Assignment/Language_Basics/Sum.java) |
+| Program | Description | Solution Link |
+| :--- | :--- | :--- |
+| **FormatArgs.java** | Accepts two strings and prints them in the format `[Arg1] Technologies [Arg2]` | [FormatArgs.java](./Assignment/Language_Basics/FormatArgs.java) |
+| **Welcome.java** | Accepts a name and prints a welcome message `Welcome [Name]` | [Welcome.java](./Assignment/Language_Basics/Welcome.java) |
+| **Sum.java** | Accepts two integers and prints their sum | [Sum.java](./Assignment/Language_Basics/Sum.java) |
 
-### 🧩 2. Conditional Statements
+### 🔀 2. Assignment - Flow Control Statements
+
+These exercises demonstrate advanced flow control statements (conditionals, switches, loops).
+
+| Program | Description | Solution Link |
+| :--- | :--- | :--- |
+| **PositiveNegative.java** | Checks if a given integer is positive, negative, or zero | [PositiveNegative.java](./Assignment/Flow_Control_Statements/PositiveNegative.java) |
+| **LastDigit.java** | Checks if two non-negative integers have the same last digit | [LastDigit.java](./Assignment/Flow_Control_Statements/LastDigit.java) |
+| **CheckArgs.java** | Checks command-line arguments and prints them separated by commas | [CheckArgs.java](./Assignment/Flow_Control_Statements/CheckArgs.java) |
+| **CharOrder.java** | Displays two initialized characters in alphabetical order | [CharOrder.java](./Assignment/Flow_Control_Statements/CharOrder.java) |
+| **CharType.java** | Checks if an initialized character is an alphabet, digit, or special character | [CharType.java](./Assignment/Flow_Control_Statements/CharType.java) |
+| **Interest.java** | Prints interest percentage based on command-line gender and age | [Interest.java](./Assignment/Flow_Control_Statements/Interest.java) |
+| **CaseConvert.java** | Converts an initialized character's case and prints the mapping | [CaseConvert.java](./Assignment/Flow_Control_Statements/CaseConvert.java) |
+| **ColorCode.java** | Prints the color name corresponding to a color code character | [ColorCode.java](./Assignment/Flow_Control_Statements/ColorCode.java) |
+| **Month.java** | Prints the corresponding month name for a given number | [Month.java](./Assignment/Flow_Control_Statements/Month.java) |
+| **PrintOneToTen.java** | Prints numbers from 1 to 10 in a single row with tabs | [PrintOneToTen.java](./Assignment/Flow_Control_Statements/PrintOneToTen.java) |
+| **PrintEvens.java** | Prints even numbers between 23 and 57 in separate rows | [PrintEvens.java](./Assignment/Flow_Control_Statements/PrintEvens.java) |
+| **PrimeCheck.java** | Checks if a given number is prime or not | [PrimeCheck.java](./Assignment/Flow_Control_Statements/PrimeCheck.java) |
+| **PrimeRange.java** | Prints prime numbers between 10 and 99 | [PrimeRange.java](./Assignment/Flow_Control_Statements/PrimeRange.java) |
+| **SumDigits.java** | Prints the sum of all digits of a given number | [SumDigits.java](./Assignment/Flow_Control_Statements/SumDigits.java) |
+| **FloydTriangle.java** | Prints asterisks in Floyd's triangle format for a given size | [FloydTriangle.java](./Assignment/Flow_Control_Statements/FloydTriangle.java) |
+| **ReverseNumber.java** | Reverses a given number | [ReverseNumber.java](./Assignment/Flow_Control_Statements/ReverseNumber.java) |
+| **Palindrome.java** | Checks if a given number is a palindrome | [Palindrome.java](./Assignment/Flow_Control_Statements/Palindrome.java) |
+
+### 🧩 3. Conditional Statements (Basic Practice)
+
 These exercises demonstrate basic conditional execution using `if-else` branches.
 
-| Problem Statement | Solution Link |
-| :--- | :--- |
-| Accept a number $N$ and print whether it is positive, negative, or zero | [PositiveNegativeZero.java](./Conditional%20statements/PositiveNegativeZero.java) |
-| Accept two numbers and print the greater value of the two | [GreaterValue.java](./Conditional%20statements/GreaterValue.java) |
-| Accept a number $N$ and print whether the number is EVEN or ODD | [EvenOrOdd.java](./Conditional%20statements/EvenOrOdd.java) |
-| Accept two numbers and print whether their sum is EVEN or ODD | [SumEvenOrOdd.java](./Conditional%20statements/SumEvenOrOdd.java) |
+| Program | Description | Solution Link |
+| :--- | :--- | :--- |
+| **PositiveNegativeZero.java** | Accept a number and print whether it is positive, negative, or zero | [PositiveNegativeZero.java](./Conditional%20statements/PositiveNegativeZero.java) |
+| **GreaterValue.java** | Accept two numbers and print the greater value of the two | [GreaterValue.java](./Conditional%20statements/GreaterValue.java) |
+| **EvenOrOdd.java** | Accept a number and print whether the number is EVEN or ODD | [EvenOrOdd.java](./Conditional%20statements/EvenOrOdd.java) |
+| **SumEvenOrOdd.java** | Accept two numbers and print whether their sum is EVEN or ODD | [SumEvenOrOdd.java](./Conditional%20statements/SumEvenOrOdd.java) |
 
-### 🔄 3. Looping Constructs
+### 🔄 4. Looping Constructs (Basic Practice)
+
 These exercises demonstrate control flows using `for` and `while` loops.
 
-| Problem Statement | Solution Link |
-| :--- | :--- |
-| Print all numbers from 1 to 100 (1 2 3 ... 100) | [PrintOneToHundred.java](./Looping%20constructs/PrintOneToHundred.java) |
-| Print alternate numbers starting from 1 to 99 (1 3 5 ... 99) | [PrintAlternateOneToNinetyNine.java](./Looping%20constructs/PrintAlternateOneToNinetyNine.java) |
-| Print alternate numbers starting from 0 to 100 (0 2 4 ... 100) | [PrintAlternateZeroToHundred.java](./Looping%20constructs/PrintAlternateZeroToHundred.java) |
-| Print all numbers backwards from 100 to 0 (100 99 98 ... 0) | [PrintBackwardsHundredToZero.java](./Looping%20constructs/PrintBackwardsHundredToZero.java) |
-| Print numbers backwards from 100 to 1 by skipping 2 numbers (100 97 94 ... 1) | [PrintBackwardsSkipTwo.java](./Looping%20constructs/PrintBackwardsSkipTwo.java) |
+| Program | Description | Solution Link |
+| :--- | :--- | :--- |
+| **PrintOneToHundred.java** | Print all numbers from 1 to 100 (1 2 3 ... 100) | [PrintOneToHundred.java](./Looping%20constructs/PrintOneToHundred.java) |
+| **PrintAlternateOneToNinetyNine.java** | Print alternate numbers starting from 1 to 99 (1 3 5 ... 99) | [PrintAlternateOneToNinetyNine.java](./Looping%20constructs/PrintAlternateOneToNinetyNine.java) |
+| **PrintAlternateZeroToHundred.java** | Print alternate numbers starting from 0 to 100 (0 2 4 ... 100) | [PrintAlternateZeroToHundred.java](./Looping%20constructs/PrintAlternateZeroToHundred.java) |
+| **PrintBackwardsHundredToZero.java** | Print all numbers backwards from 100 to 0 (100 99 98 ... 0) | [PrintBackwardsHundredToZero.java](./Looping%20constructs/PrintBackwardsHundredToZero.java) |
+| **PrintBackwardsSkipTwo.java** | Print numbers backwards from 100 to 1 by skipping 2 numbers (100 97 94 ... 1) | [PrintBackwardsSkipTwo.java](./Looping%20constructs/PrintBackwardsSkipTwo.java) |
 
 ---
 
 ## 🛠️ How to Compile & Run
 
-Make sure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/) installed on your machine.
+Make sure you have [Java Development Kit (JDK) 26](https://www.oracle.com/java/technologies/downloads/) (or higher) installed on your machine.
 
 ### Compiling a File:
 Open your terminal/command prompt, navigate to the directory containing the file, and compile it:
@@ -102,11 +129,11 @@ Once compiled, run the bytecode using:
 java Filename
 ```
 
-*Example for Even or Odd:*
+*Example for Assignment - Flow Control (Month.java):*
 ```bash
-cd "Conditional statements"
-javac EvenOrOdd.java
-java EvenOrOdd
+cd Assignment/Flow_Control_Statements
+javac Month.java
+java Month 12
 ```
 
 ---
