@@ -1,4 +1,5 @@
-// Write a program to accept gender ("Male" or "Female") and age from command line arguments and print the percentage of interest based on the given conditions.
+// Write a program to accept gender ("Male" or "Female") and age from command line arguments 
+// and print the percentage of interest based on the given conditions.
 public class Interest {
     public static void main(String[] args) {
         if (args.length < 2) {

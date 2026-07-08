@@ -1,4 +1,5 @@
-// Initialize a character variable in a program and print 'Alphabet' if it is an alphabet, 'Digit' if it is a number, and 'Special Character' otherwise.
+// Initialize a character variable in a program and print 'Alphabet' if it is an alphabet, 
+// 'Digit' if it is a number, and 'Special Character' otherwise.
 public class CharType {
     public static void main(String[] args) {
         char ch = '*';

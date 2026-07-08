@@ -1,11 +1,25 @@
-# 📂 Assignment Solutions
+# 📂 Java Assignments - Wipro TalentNext
 
-This folder contains assignments for the Wipro TalentNext training program.
+This repository contains Java assignments completed as part of the **Wipro TalentNext** Java learning program. The project is designed to build foundational Java programming skills, covering basic language syntax, command-line arguments, and flow control mechanisms.
 
-## 📁 Subdirectories
+## 💻 Tech Stack & Environment
+- **Language**: Java 26
+- **IDE**: Eclipse IDE
+- **Build/Project Files**: Eclipse `.project` and `.classpath` configuration files are included.
+- **Ignored Files**: Compiled files (like `bin/` directory and `.class` files) and local IDE metadata (such as `.settings/`, `.idea/`, and `*.iml` files) are excluded from the repository using [`.gitignore`](./.gitignore).
 
-### 1. 📖 [Language Basics](./Language_Basics/)
-Contains basic Java programs demonstrating command-line arguments.
+---
+
+## 📁 Folder Structure
+
+The project is organized into two main modules based on the topic of the assignments:
+
+- **[`Language_Basics/`](./Language_Basics/)**: Contains introductory Java programs demonstrating command-line arguments and basic data processing.
+- **[`Flow_Control_Statements/`](./Flow_Control_Statements/)**: Contains programs highlighting control flow constructs, including conditional statements, switches, and loops.
+
+### Directory Details and Program List
+
+#### 1. 📖 [`Language_Basics`](./Language_Basics/)
 
 | Program | Description | How to Run |
 | :--- | :--- | :--- |
@@ -13,8 +27,7 @@ Contains basic Java programs demonstrating command-line arguments.
 | [Welcome.java](./Language_Basics/Welcome.java) | Accepts a name and prints a welcome message `Welcome [Name]` | `java Welcome John` |
 | [Sum.java](./Language_Basics/Sum.java) | Accepts two integers and prints their sum | `java Sum 10 20` |
 
-### 2. 🔀 [Flow Control Statements](./Flow_Control_Statements/)
-Contains Java programs demonstrating flow control statements (conditionals, switches, loops).
+#### 2. 🔀 [`Flow_Control_Statements`](./Flow_Control_Statements/)
 
 | Program | Description | How to Run |
 | :--- | :--- | :--- |
@@ -38,32 +51,62 @@ Contains Java programs demonstrating flow control statements (conditionals, swit
 
 ---
 
-## 🛠️ How to Compile & Run
+## 🚀 Getting Started
 
-### For Language Basics:
-1. Navigate to the folder:
-   ```bash
-   cd "Assignment/Language_Basics"
-   ```
-2. Compile the Java files:
-   ```bash
-   javac *.java
-   ```
-3. Run the programs:
-   ```bash
-   java FormatArgs Wipro Bangalore
-   ```
+Follow these steps to clone, import, and run the programs on your local machine.
 
-### For Flow Control Statements:
-1. Navigate to the folder:
-   ```bash
-   cd "Assignment/Flow_Control_Statements"
-   ```
-2. Compile the Java files:
-   ```bash
-   javac *.java
-   ```
-3. Run a program (e.g. Month):
-   ```bash
-   java Month 12
-   ```
+### Prerequisites
+Make sure you have the following installed:
+- [Java SE Development Kit (JDK) 26](https://www.oracle.com/java/technologies/downloads/)
+- [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/release/2024-12/r/eclipse-ide-java-developers) (or any version supporting Java 26)
+
+### 1. Clone the Repository
+Clone the repository using Git:
+```bash
+git clone https://github.com/AaryanK47/Wipro-TalentNext-Practise.git
+cd Wipro-TalentNext-Practise/Assignment
+```
+
+### 2. Import into Eclipse IDE
+1. Open Eclipse IDE.
+2. Go to **File** > **Import...**.
+3. Expand the **General** folder and select **Existing Projects into Workspace**. Click **Next**.
+4. Choose **Select root directory** and browse to the cloned `Assignment` folder.
+5. Ensure the project is checked in the Projects list, and click **Finish**.
+6. Eclipse will automatically recognize the `.project` and `.classpath` configuration files.
+
+### 3. How to Compile & Run
+
+#### Option A: Running from Eclipse IDE
+1. Expand the project in the **Package Explorer**.
+2. Navigate to either `Language_Basics` or `Flow_Control_Statements`.
+3. Right-click on the Java file you want to run.
+4. Select **Run As** > **Java Application**.
+   - *Note: For programs requiring command-line arguments, select **Run As** > **Run Configurations...**, go to the **Arguments** tab, enter the arguments in the **Program arguments** box, and click **Run**.*
+
+#### Option B: Running from Terminal / Command Prompt
+Navigate to the directory of the module and compile/run the program:
+
+##### For Language Basics:
+```bash
+# Navigate to the folder
+cd Language_Basics
+
+# Compile the files
+javac *.java
+
+# Run a program (e.g. FormatArgs with arguments)
+java FormatArgs Wipro Bangalore
+```
+
+##### For Flow Control Statements:
+```bash
+# Navigate to the folder
+cd Flow_Control_Statements
+
+# Compile the files
+javac *.java
+
+# Run a program (e.g. Month with an argument)
+java Month 12
+```

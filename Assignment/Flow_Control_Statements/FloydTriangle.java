@@ -1,4 +1,5 @@
 // Write a program to print * in Floyds format (using for and while loop)
+// Command Line Argument
 public class FloydTriangle {
     public static void main(String[] args) {
         if (args.length < 1) {
