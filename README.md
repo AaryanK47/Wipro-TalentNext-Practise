@@ -30,6 +30,7 @@ Wipro-TalentNext-Practise/
 │   │   ├── Sum.java
 │   │   └── Welcome.java
 │   ├── 📂 Flow_Control_Statements/      # Conditionals, switches, and loops assignments (17 programs)
+│   ├── 📂 Arrays/                       # Arrays assignments (14 programs)
 │   └── 📄 README.md                     # Assignment module documentation
 │
 ├── 📂 Conditional statements/           # Basic decision-making exercises
@@ -110,6 +111,27 @@ These exercises demonstrate control flows using `for` and `while` loops.
 | **PrintAlternateZeroToHundred.java** | Print alternate numbers starting from 0 to 100 (0 2 4 ... 100) | [PrintAlternateZeroToHundred.java](./Looping%20constructs/PrintAlternateZeroToHundred.java) |
 | **PrintBackwardsHundredToZero.java** | Print all numbers backwards from 100 to 0 (100 99 98 ... 0) | [PrintBackwardsHundredToZero.java](./Looping%20constructs/PrintBackwardsHundredToZero.java) |
 | **PrintBackwardsSkipTwo.java** | Print numbers backwards from 100 to 1 by skipping 2 numbers (100 97 94 ... 1) | [PrintBackwardsSkipTwo.java](./Looping%20constructs/PrintBackwardsSkipTwo.java) |
+
+### 📊 5. Assignment - Arrays
+
+These exercises demonstrate operations on 1D and 2D arrays in Java.
+
+| Program | Description | Solution Link |
+| :--- | :--- | :--- |
+| **SumAverage.java** | Print the sum and average of an integer array | [SumAverage.java](./Assignment/Arrays/SumAverage.java) |
+| **MaxMin.java** | Find the maximum and minimum values in an integer array | [MaxMin.java](./Assignment/Arrays/MaxMin.java) |
+| **SearchArray.java** | Search an element in an array and print its index or -1 | [SearchArray.java](./Assignment/Arrays/SearchArray.java) |
+| **AsciiChar.java** | Print characters corresponding to ASCII values | [AsciiChar.java](./Assignment/Arrays/AsciiChar.java) |
+| **LargestSmallest.java** | Find the largest 2 numbers and the smallest 2 numbers in an array | [LargestSmallest.java](./Assignment/Arrays/LargestSmallest.java) |
+| **SortArray.java** | Initialize an array and print it in sorted order | [SortArray.java](./Assignment/Arrays/SortArray.java) |
+| **RemoveDuplicate.java** | Remove duplicate elements from an array | [RemoveDuplicate.java](./Assignment/Arrays/RemoveDuplicate.java) |
+| **Sum67.java** | Find the sum of array elements by ignoring numbers between 6 and 7 | [Sum67.java](./Assignment/Arrays/Sum67.java) |
+| **WithoutTen.java** | Remove all 10's from the array and shift remaining elements left | [WithoutTen.java](./Assignment/Arrays/WithoutTen.java) |
+| **EvenOdd.java** | Arrange even numbers before odd numbers | [EvenOdd.java](./Assignment/Arrays/EvenOdd.java) |
+| **Only14.java** | Check if an array contains only 1's and 4's | [Only14.java](./Assignment/Arrays/Only14.java) |
+| **MiddleWay.java** | Return a new array containing the middle elements of two arrays | [MiddleWay.java](./Assignment/Arrays/MiddleWay.java) |
+| **ReverseArray2D.java** | Reverse the elements of a 2x2 array using command line arguments | [ReverseArray2D.java](./Assignment/Arrays/ReverseArray2D.java) |
+| **Biggest3x3.java** | Find the biggest number in a 3x3 array using command line arguments | [Biggest3x3.java](./Assignment/Arrays/Biggest3x3.java) |
 
 ---
 

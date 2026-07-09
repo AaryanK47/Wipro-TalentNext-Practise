@@ -12,10 +12,11 @@ This repository contains Java assignments completed as part of the **Wipro Talen
 
 ## 📁 Folder Structure
 
-The project is organized into two main modules based on the topic of the assignments:
+The project is organized into three main modules based on the topic of the assignments:
 
 - **[`Language_Basics/`](./Language_Basics/)**: Contains introductory Java programs demonstrating command-line arguments and basic data processing.
 - **[`Flow_Control_Statements/`](./Flow_Control_Statements/)**: Contains programs highlighting control flow constructs, including conditional statements, switches, and loops.
+- **[`Arrays/`](./Arrays/)**: Contains programs demonstrating array operations, search/sort algorithms, and 2D arrays.
 
 ### Directory Details and Program List
 
@@ -48,6 +49,25 @@ The project is organized into two main modules based on the topic of the assignm
 | [FloydTriangle.java](./Flow_Control_Statements/FloydTriangle.java) | Prints asterisks in Floyd's triangle format for a given size | `java FloydTriangle 3` |
 | [ReverseNumber.java](./Flow_Control_Statements/ReverseNumber.java) | Reverses a given number | `java ReverseNumber 1234` |
 | [Palindrome.java](./Flow_Control_Statements/Palindrome.java) | Checks if a given number is a palindrome | `java Palindrome 110011` |
+
+#### 3. 📊 [`Arrays`](./Arrays/)
+
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
+| [SumAverage.java](./Arrays/SumAverage.java) | Print the sum and average of an integer array | `java SumAverage` |
+| [MaxMin.java](./Arrays/MaxMin.java) | Find the maximum and minimum values in an integer array | `java MaxMin` |
+| [SearchArray.java](./Arrays/SearchArray.java) | Search an element in an array and print its index or -1 | `java SearchArray` |
+| [AsciiChar.java](./Arrays/AsciiChar.java) | Print characters corresponding to ASCII values | `java AsciiChar` |
+| [LargestSmallest.java](./Arrays/LargestSmallest.java) | Find the largest 2 numbers and the smallest 2 numbers in an array | `java LargestSmallest` |
+| [SortArray.java](./Arrays/SortArray.java) | Initialize an array and print it in sorted order | `java SortArray` |
+| [RemoveDuplicate.java](./Arrays/RemoveDuplicate.java) | Remove duplicate elements from an array | `java RemoveDuplicate` |
+| [Sum67.java](./Arrays/Sum67.java) | Find the sum of array elements by ignoring numbers between 6 and 7 | `java Sum67` |
+| [WithoutTen.java](./Arrays/WithoutTen.java) | Remove all 10's from the array and shift remaining elements left | `java WithoutTen` |
+| [EvenOdd.java](./Arrays/EvenOdd.java) | Arrange even numbers before odd numbers | `java EvenOdd` |
+| [Only14.java](./Arrays/Only14.java) | Check if an array contains only 1's and 4's | `java Only14` |
+| [MiddleWay.java](./Arrays/MiddleWay.java) | Return a new array containing the middle elements of two arrays | `java MiddleWay` |
+| [ReverseArray2D.java](./Arrays/ReverseArray2D.java) | Reverse the elements of a 2x2 array using command line arguments | `java ReverseArray2D 1 2 3 4` |
+| [Biggest3x3.java](./Arrays/Biggest3x3.java) | Find the biggest number in a 3x3 array using command line arguments | `java Biggest3x3 1 2 3 4 5 6 7 8 9` |
 
 ---
 
@@ -109,4 +129,16 @@ javac *.java
 
 # Run a program (e.g. Month with an argument)
 java Month 12
+```
+
+##### For Arrays:
+```bash
+# Navigate to the folder
+cd Arrays
+
+# Compile the files
+javac *.java
+
+# Run a program (e.g. SumAverage)
+java SumAverage
 ```
