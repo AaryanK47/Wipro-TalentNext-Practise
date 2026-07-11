@@ -19,7 +19,7 @@ Welcome to the **Wipro TalentNext Practice** repository! This repository contain
 
 ## 📂 Project Structure
 
-This workspace is organized logically into the topics covered over Day 1 & Day 2:
+This workspace is organized logically into the topics covered over Day 1 to Day 4:
 
 ```text
 Wipro-TalentNext-Practise/
@@ -38,6 +38,15 @@ Wipro-TalentNext-Practise/
 │   ├── GreaterValue.java
 │   ├── PositiveNegativeZero.java
 │   └── SumEvenOrOdd.java
+│
+├── 📂 Day3n4_division_n_modulo/         # Division & Modulo assignments (Day 3 & 4)
+│   ├── 📂 src/                          # Java source code
+│   │   ├── IsEven.java
+│   │   ├── IsOdd.java
+│   │   ├── LastDigit.java
+│   │   ├── SecondLastDigit.java
+│   │   └── SumLastDigits.java
+│   └── 📄 README.md                     # Day 3 & 4 module documentation
 │
 ├── 📂 Looping constructs/               # Basic iteration and loop exercises
 │   ├── PrintOneToHundred.java
@@ -133,6 +142,18 @@ These exercises demonstrate operations on 1D and 2D arrays in Java.
 | **ReverseArray2D.java** | Reverse the elements of a 2x2 array using command line arguments | [ReverseArray2D.java](./Assignment/Arrays/ReverseArray2D.java) |
 | **Biggest3x3.java** | Find the biggest number in a 3x3 array using command line arguments | [Biggest3x3.java](./Assignment/Arrays/Biggest3x3.java) |
 
+### ➗ 6. Day 3 & 4 - Division & Modulo (Basic Practice)
+
+These exercises demonstrate mathematical logic building using division and modulo operators.
+
+| Program | Description | Solution Link |
+| :--- | :--- | :--- |
+| **IsEven.java** | Checks if a given input number is Even, returning 2 if even and 1 if odd. | [IsEven.java](./Day3n4_division_n_modulo/src/IsEven.java) |
+| **IsOdd.java** | Checks if a given input number is Odd, returning 2 if odd and 1 if even. | [IsOdd.java](./Day3n4_division_n_modulo/src/IsOdd.java) |
+| **LastDigit.java** | Returns the last digit of the given number as a positive value. | [LastDigit.java](./Day3n4_division_n_modulo/src/LastDigit.java) |
+| **SecondLastDigit.java** | Returns the second last digit (tens place) of the number as a positive value, or `-1` if it is single-digit. | [SecondLastDigit.java](./Day3n4_division_n_modulo/src/SecondLastDigit.java) |
+| **SumLastDigits.java** | Returns the sum of the last digits of two numbers, ignoring their signs. | [SumLastDigits.java](./Day3n4_division_n_modulo/src/SumLastDigits.java) |
+
 ---
 
 ## 🛠️ How to Compile & Run
@@ -156,6 +177,13 @@ java Filename
 cd Assignment/Flow_Control_Statements
 javac Month.java
 java Month 12
+```
+
+*Example for Day 3 & 4 - Division & Modulo (IsEven.java):*
+```bash
+cd Day3n4_division_n_modulo/src
+javac IsEven.java
+java IsEven
 ```
 
 ---
