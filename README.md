@@ -31,6 +31,7 @@ Wipro-TalentNext-Practise/
 │   │   └── Welcome.java
 │   ├── 📂 Flow_Control_Statements/      # Conditionals, switches, and loops assignments (17 programs)
 │   ├── 📂 Arrays/                       # Arrays assignments (14 programs)
+│   ├── 📂 OOPS_n_Inheritance/           # Object-Oriented Programming & advanced topics (28 files)
 │   └── 📄 README.md                     # Assignment module documentation
 │
 ├── 📂 Conditional statements/           # Basic decision-making exercises
@@ -154,6 +155,20 @@ These exercises demonstrate mathematical logic building using division and modul
 | **SecondLastDigit.java** | Returns the second last digit (tens place) of the number as a positive value, or `-1` if it is single-digit. | [SecondLastDigit.java](./Day3n4_division_n_modulo/src/SecondLastDigit.java) |
 | **SumLastDigits.java** | Returns the sum of the last digits of two numbers, ignoring their signs. | [SumLastDigits.java](./Day3n4_division_n_modulo/src/SumLastDigits.java) |
 
+### 🧩 7. Assignment - OOPS, Strings, Optional & StringJoiner
+
+These exercises cover core OOP concepts (inheritance, polymorphism, encapsulation, classes/objects), String/StringBuffer manipulation, and utility classes (Optional, StringJoiner).
+
+| Topic | Description | Solution Folder |
+| :--- | :--- | :--- |
+| **Classes & Objects** | Defining custom classes, constructors, methods, and calculating Box volume/Calculator math | [Classes_n_Objects](./Assignment/OOPS_n_Inheritance/src/Classes_n_Objects/) |
+| **Encapsulation & Abstraction** | Author and Book implementation demonstrating data hiding | [Encapsulation_Abstraction](./Assignment/OOPS_n_Inheritance/src/Encapsulation_Abstraction/) |
+| **Inheritance** | Generalizing and specializing entities with inheritance (Person/Employee, Animal/Bird) | [Inheritance](./Assignment/OOPS_n_Inheritance/src/Inheritance/) |
+| **Overriding & Polymorphism** | Polymorphic method resolution using custom shapes and fruits | [Overriding_Polymorphism](./Assignment/OOPS_n_Inheritance/src/Overriding_Polymorphism/) |
+| **String & StringBuffer** | 10 exercises solving common String/StringBuffer manipulations | [String_stringbuffer](./Assignment/OOPS_n_Inheritance/src/String_stringbuffer/) |
+| **StringJoiner** | Efficient string joining with custom delimiters, prefixes, and suffixes | [StringJoiner_class](./Assignment/OOPS_n_Inheritance/src/StringJoiner_class/) |
+| **Optional Class** | Modern Java null safety handling and custom exceptions | [Optional_class](./Assignment/OOPS_n_Inheritance/src/Optional_class/) |
+
 ---
 
 ## 🛠️ How to Compile & Run
@@ -184,6 +199,13 @@ java Month 12
 cd Day3n4_division_n_modulo/src
 javac IsEven.java
 java IsEven
+```
+
+*Example for Assignment - OOPS & Inheritance (TestBox.java):*
+```bash
+cd Assignment/OOPS_n_Inheritance/src
+javac Classes_n_Objects/TestBox.java
+java Classes_n_Objects.TestBox
 ```
 
 ---

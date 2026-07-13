@@ -72,13 +72,54 @@ The project is organized into four main modules based on the topic of the assign
 
 #### 4. 🧩 [`OOPS_n_Inheritance`](./OOPS_n_Inheritance/)
 
+##### 📦 Classes and Objects
 | Program | Description | How to Run |
 | :--- | :--- | :--- |
 | [TestBox.java](./OOPS_n_Inheritance/src/Classes_n_Objects/TestBox.java) | Box class with parameterized constructor to calculate volume | `java Classes_n_Objects.TestBox` |
 | [TestCalculator.java](./OOPS_n_Inheritance/src/Classes_n_Objects/TestCalculator.java) | Calculator class with static methods for integer/double power calculation | `java Classes_n_Objects.TestCalculator` |
+
+##### 🔒 Encapsulation and Abstraction
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
 | [TestBook.java](./OOPS_n_Inheritance/src/Encapsulation_Abstraction/TestBook.java) | Book and Author classes illustrating encapsulation and abstraction | `java Encapsulation_Abstraction.TestBook` |
+
+##### 🧬 Inheritance
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
 | [TestEmployee.java](./OOPS_n_Inheritance/src/Inheritance/TestEmployee.java) | Employee inheriting Person class, with salary and insurance details | `java Inheritance.TestEmployee` |
 | [TestAnimal.java](./OOPS_n_Inheritance/src/Inheritance/TestAnimal.java) | Bird overriding Animal class methods, adding custom behaviors | `java Inheritance.TestAnimal` |
+
+##### 🎭 Overriding and Polymorphism
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
+| [TestFruit.java](./OOPS_n_Inheritance/src/Overriding_Polymorphism/TestFruit.java) | Fruit, Apple, and Orange classes demonstrating overriding of eat() method | `java Overriding_Polymorphism.TestFruit` |
+| [TestShape.java](./OOPS_n_Inheritance/src/Overriding_Polymorphism/TestShape.java) | Shape, Circle, Triangle, and Square classes illustrating polymorphism and method overriding | `java Overriding_Polymorphism.TestShape` |
+
+##### 🧵 String & StringBuffer
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
+| [Program1.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program1.java) | Checks if a given string is a palindrome | `java String_stringbuffer.Program1` |
+| [Program2.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program2.java) | Concatenates two strings in lowercase, handling duplicate boundary characters | `java String_stringbuffer.Program2` |
+| [Program3.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program3.java) | Returns n copies of the first 2 characters of a string of length n | `java String_stringbuffer.Program3` |
+| [Program4.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program4.java) | Returns the first half of a string if its length is even, otherwise null | `java String_stringbuffer.Program4` |
+| [Program5.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program5.java) | Returns a string without its first and last characters | `java String_stringbuffer.Program5` |
+| [Program6.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program6.java) | Returns a short + long + short combined string from two input strings | `java String_stringbuffer.Program6` |
+| [Program7.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program7.java) | Returns a string with leading/trailing 'x' characters removed | `java String_stringbuffer.Program7` |
+| [Program8.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program8.java) | Removes a star (*) and its immediate left/right neighbors from a string | `java String_stringbuffer.Program8` |
+| [Program9.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program9.java) | Merges two strings by alternating characters, appending any remainder | `java String_stringbuffer.Program9` |
+| [Program10.java](./OOPS_n_Inheritance/src/String_stringbuffer/Program10.java) | Repeats the last n characters of a string n times | `java String_stringbuffer.Program10` |
+
+##### 🤝 StringJoiner Class
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
+| [TestStringJoiner1.java](./OOPS_n_Inheritance/src/StringJoiner_class/TestStringJoiner1.java) | Joins names from an ArrayList with commas, enclosed in braces `{}` | `java StringJoiner_class.TestStringJoiner1` |
+| [TestStringJoiner2.java](./OOPS_n_Inheritance/src/StringJoiner_class/TestStringJoiner2.java) | Merges city-name StringJoiners with hyphen separators | `java StringJoiner_class.TestStringJoiner2` |
+
+##### 🔍 Optional Class
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
+| [TestOptional1.java](./OOPS_n_Inheritance/src/Optional_class/TestOptional1.java) | Prevents NullPointerException using Optional on null elements | `java Optional_class.TestOptional1` |
+| [TestOptional3.java](./OOPS_n_Inheritance/src/Optional_class/TestOptional3.java) | Throws custom InvalidEmployeeException if employee object is null using Optional | `java Optional_class.TestOptional3` |
 
 ---
 
