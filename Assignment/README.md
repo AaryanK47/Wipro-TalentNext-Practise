@@ -12,11 +12,12 @@ This repository contains Java assignments completed as part of the **Wipro Talen
 
 ## 📁 Folder Structure
 
-The project is organized into three main modules based on the topic of the assignments:
+The project is organized into four main modules based on the topic of the assignments:
 
 - **[`Language_Basics/`](./Language_Basics/)**: Contains introductory Java programs demonstrating command-line arguments and basic data processing.
 - **[`Flow_Control_Statements/`](./Flow_Control_Statements/)**: Contains programs highlighting control flow constructs, including conditional statements, switches, and loops.
 - **[`Arrays/`](./Arrays/)**: Contains programs demonstrating array operations, search/sort algorithms, and 2D arrays.
+- **[`OOPS_n_Inheritance/`](./OOPS_n_Inheritance/)**: Contains programs showcasing Object-Oriented Programming concepts such as Classes and Objects, Encapsulation, Abstraction, and Inheritance.
 
 ### Directory Details and Program List
 
@@ -68,6 +69,16 @@ The project is organized into three main modules based on the topic of the assig
 | [MiddleWay.java](./Arrays/MiddleWay.java) | Return a new array containing the middle elements of two arrays | `java MiddleWay` |
 | [ReverseArray2D.java](./Arrays/ReverseArray2D.java) | Reverse the elements of a 2x2 array using command line arguments | `java ReverseArray2D 1 2 3 4` |
 | [Biggest3x3.java](./Arrays/Biggest3x3.java) | Find the biggest number in a 3x3 array using command line arguments | `java Biggest3x3 1 2 3 4 5 6 7 8 9` |
+
+#### 4. 🧩 [`OOPS_n_Inheritance`](./OOPS_n_Inheritance/)
+
+| Program | Description | How to Run |
+| :--- | :--- | :--- |
+| [TestBox.java](./OOPS_n_Inheritance/src/Classes_n_Objects/TestBox.java) | Box class with parameterized constructor to calculate volume | `java Classes_n_Objects.TestBox` |
+| [TestCalculator.java](./OOPS_n_Inheritance/src/Classes_n_Objects/TestCalculator.java) | Calculator class with static methods for integer/double power calculation | `java Classes_n_Objects.TestCalculator` |
+| [TestBook.java](./OOPS_n_Inheritance/src/Encapsulation_Abstraction/TestBook.java) | Book and Author classes illustrating encapsulation and abstraction | `java Encapsulation_Abstraction.TestBook` |
+| [TestEmployee.java](./OOPS_n_Inheritance/src/Inheritance/TestEmployee.java) | Employee inheriting Person class, with salary and insurance details | `java Inheritance.TestEmployee` |
+| [TestAnimal.java](./OOPS_n_Inheritance/src/Inheritance/TestAnimal.java) | Bird overriding Animal class methods, adding custom behaviors | `java Inheritance.TestAnimal` |
 
 ---
 
@@ -141,4 +152,16 @@ javac *.java
 
 # Run a program (e.g. SumAverage)
 java SumAverage
+```
+
+##### For OOPS and Inheritance:
+```bash
+# Navigate to the src folder
+cd OOPS_n_Inheritance/src
+
+# Compile a program (e.g. TestBox.java)
+javac Classes_n_Objects/TestBox.java
+
+# Run the program
+java Classes_n_Objects.TestBox
 ```
